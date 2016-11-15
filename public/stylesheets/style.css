@@ -1,0 +1,70 @@
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-weight: 200;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#logo {
+    float: left;
+}
+
+nav {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    padding: 20px;
+}
+
+h1 {
+    padding-left: 10px;
+    font-weight: 100;
+}
+
+#secrets-list {
+    clear: both;
+    text-align: center;
+}
+
+#secrets-list li {
+    padding-bottom: 2px;
+}
+
+#secrets-list h5 {
+    margin-bottom: 0;
+}
+
+#secrets-list h2 {
+    margin-top: 10px;
+}
+
+#new-secret {
+    clear: both;
+    text-align: center;
+}
+
+#new-secret textarea {
+    display: block;
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#single-secret {
+    clear: both;
+    text-align: center;
+}
+
+.next-page {
+    display: inline-block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: right;
+    padding-right: 20px;
+}

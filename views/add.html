@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div id="new-secret">
+    <h1>Write a new secret:</h1>
+    <form action="/secrets" method="POST">
+        <textarea name="text"></textarea>
+        <button type="submit">Share your secret</button>
+    </form>
+</div>
+{% endblock %}
