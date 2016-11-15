@@ -12,7 +12,7 @@ The best part of this totally viable application is: you have to build it!
  You should be able to accomplish this by running `createdb secrets` in
  your terminal or using your Postgres GUI program (like Postico).
  
-2. Check out the hosted finished version of this application here: (https://thawing-waters-37617.herokuapp.com/secrets).
+2. Check out the hosted finished version of this application here: (https://thawing-waters-37617.herokuapp.com).
   This should give you clear direction in the necessary features and functionality.
   Oh, you should also share a secret with us ... please keep it clean. :)
   
