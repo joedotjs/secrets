@@ -40,14 +40,14 @@ using either `belongsTo` or `hasMany`, or both!
     - `POST /secrets`
         - Adds a new secret to the database, then redirects to `GET /secrets`
         
-    - `GET /secrets/1`
+    - `GET /secrets/:secretId`
         - Accesses a secret from the database by its ID, along with comments,
           and renders out `secret.html`
           
     - `GET /secrets/add`
         - Renders out the form to add a new secret.
         
-    - `POST /secrets/1/comments`
+    - `POST /secrets/:secretId/comments`
         - Adds a new comment to a secret, to be seen on the single secret route.
         
 3. As mentioned earlier, there is a beyond-the-basics challenge of implementing pagination for
