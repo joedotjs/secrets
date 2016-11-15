@@ -18,8 +18,8 @@ The best part of this totally viable application is: you have to build it!
   
 3. Check out the files you already have! You shouldn't have to write any HTML or
   CSS if using the CSS file available in the `public/stylesheets` folder or the views
-  available in `views`. Build your routes and `.render` calls to match the data being
-  used in each template.
+  available in `views`. A lot of the server is also scaffolded out for you already. Take
+  some time to understand what you have already and what you'll need to build.
   
 ### What you need to do:
 
@@ -49,3 +49,8 @@ using either `belongsTo` or `hasMany`, or both!
         
     - `POST /secrets/1/comments`
         - Adds a new comment to a secret, to be seen on the single secret route.
+        
+3. As mentioned earlier, there is a beyond-the-basics challenge of implementing pagination for
+    the `GET /secrets` route. Look at how the `hrefs` in `index.html` for **Previous/Next Page**
+    links are written. Your `GET /secrets` should use `req.query` to enhance your existing query.
+    `limit`, `offset` in your `where` object will be useful to you.
