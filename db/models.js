@@ -4,17 +4,9 @@ const db = new Sequelize(
     'postgres://localhost:5432/secrets'
 );
 
-const SecretModel = db.define('secret', {
-    text: {
-        type: Sequelize.TEXT // STRING is limited to 255 characters
-    }
-});
+const SecretModel = db.define('secret', {});
 
-const CommentModel = db.define('comment', {
-    text: {
-        type: Sequelize.TEXT
-    }
-});
+const CommentModel = db.define('comment', {});
 
 CommentModel.belongsTo(SecretModel);
 SecretModel.hasMany(CommentModel);
