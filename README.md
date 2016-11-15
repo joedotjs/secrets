@@ -21,6 +21,8 @@ The best part of this totally viable application is: you have to build it!
   available in `views`. A lot of the server is also scaffolded out for you already. Take
   some time to understand what you have already and what you'll need to build.
   
+4. A solution can be browsed in the first commit of this repo, direct link here: https://github.com/joedotjs/secrets/tree/ca04e5a8ae65201789fd1c4e7a92f59f325b1a63. Feel free to reference this if you get stuck!
+  
 ### What you need to do:
 
 1. Fill in the model definitions for `SecretModel` and `CommentModel` in `db/models.js`.
